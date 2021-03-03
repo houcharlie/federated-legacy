@@ -1,0 +1,2 @@
+num_client_disc_train_steps, num_server_gen_train_steps,  num_clients_per_round, status, num_rounds, client_batch_size, model_name, lr, lr_factor
+1 1 8 CEN_fedadam 30000 32 fedadam adam 0.0002 1

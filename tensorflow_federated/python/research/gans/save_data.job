@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p GPU-AI
+#SBATCH --gres=gpu:volta16:1
+#SBATCH -t 48:00:00
+source /etc/profile.d/modules.sh
+module load cuda/10.1
+export PATH=$HOME/bin:$PATH
+source /home/houc/venv/bin/activate
+python save_data.py

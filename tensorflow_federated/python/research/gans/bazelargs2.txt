@@ -1,0 +1,9 @@
+num_client_disc_train_steps, num_server_gen_train_steps,  num_clients_per_round, status, num_rounds, client_batch_size, model_name
+1 1 1 CEN_CEN 30000 256 adam_v5
+1 1 8 FED_FED 30000 32 adam_v5
+2 2 8 FED_FED 30000 32 adam_v5
+8 8 8 FED_FED 30000 32 adam_v5
+16 16 8 FED_FED 30000 32 adam_v5
+32 32 8 FED_FED 30000 32 adam_v5
+64 64 8 FED_FED 30000 32 adam_v5
+1 1 8 CEN_FED 30000 32 adam_v5
